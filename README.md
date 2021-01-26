@@ -1,4 +1,4 @@
-### HW3 for CS362
+## HW3 for CS362
 
 An application that calculates whether the year is a leap year or not with error handled input.
 
