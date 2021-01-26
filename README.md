@@ -5,6 +5,6 @@ An application that calculates whether the year is a leap year or not with error
 
 To compile and run this code, please just enter the commands as below:
 
-python3 kwanghyuk_kim_hw1.py
+python3 kwanghyuk_kim_hw3.py
 
 Below is the flowchart for this program.
