@@ -36,7 +36,7 @@ while (cont == '1'):
         else:
             print(year, "is not a leap year")
     except Exception as e:
-        print(e)
+        print("Invalid input! :",e)
     print("\nContinue(1) or exit(anykey): ", end="")
     cont = input()
     print()
