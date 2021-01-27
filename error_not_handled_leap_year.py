@@ -1,16 +1,16 @@
 # CS362_Winter21
 # HW3
-# Program: kwanghyuk_kim_hw3.py
+# Program: error_not_handled_leap_year.py
 # Author: Kwanghyuk Kim
 
 ###########################################################################
 # Program Description
 # : An application that calculates whether the year is a leap year or not
-#   with error handled input.
+#   without error handled input.
 #
 # To compile and run this code, please just enter the commands as below: 
 #
-# python3 kwanghyuk_kim_hw3.py
+# python3 error_not_handled_leap_year.py
 ###########################################################################
 
 ###########################################################################
@@ -29,14 +29,11 @@ def is_leap(year):
 cont = '1'
 while (cont == '1'):
     print("Enter a year: ", end="")
-    try:
-        year = int(input())
-        if is_leap(year) == True:
-            print(year, "is a leap year")
-        else:
-            print(year, "is not a leap year")
-    except Exception as e:
-        print(e)
+    year = int(input())
+    if is_leap(year) == True:
+        print(year, "is a leap year")
+    else:
+        print(year, "is not a leap year")
     print("\nContinue(1) or exit(anykey): ", end="")
     cont = input()
     print()
